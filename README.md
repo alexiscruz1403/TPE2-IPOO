@@ -1,5 +1,5 @@
 # TPE2_IPOO
-Resolución del Trabajo Practico Entregable
+Resolución del Trabajo Practico Entregable 2
 
 # Materia 2024
 Introducción a la Programación Orientada a Objetos

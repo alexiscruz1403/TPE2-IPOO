@@ -1,6 +1,7 @@
 <?php
 
 class Pasajero{
+    //Atributos
     private $nombre; //String
     private $nroAsiento; //Int
     private $nroTicket; //Int

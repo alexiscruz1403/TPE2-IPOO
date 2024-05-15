@@ -77,10 +77,10 @@ class Viaje{
             $colPasajeros=$this->getColeccionPasajeros();
             $colPasajeros[]=$unPasajero;
             $this->setColeccionPasajeros($colPasajeros);
-            $costoVaije=$this->getCostoViaje();
+            $costoViaje=$this->getCostoViaje();
             $incremento=$unPasajero->darPorcentajeIncremento();
-            $adicional=$costoVaije*($incremento/100);
-            $precioFinal=$costoVaije+$adicional;
+            $adicional=$costoViaje*($incremento/100);
+            $precioFinal=$costoViaje+$adicional;
             $this->setTotalAbonado($this->getTotalAbonado()+$precioFinal);
         }
         return $precioFinal;
